@@ -25,6 +25,5 @@ public class CdkExampleStack extends Stack {
             .build();
 
         topic.addSubscription(new SqsSubscription(queue));
-
     }
 }
